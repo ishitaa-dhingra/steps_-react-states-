@@ -42,7 +42,7 @@ export default function App() {
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
               onClick={handlePrevious}
             >
-              {/* ---------------------------------------------here we dont call function (handlePrevious())because we have to call fuction when clicked */}
+              {/* ---------------------------------------------here we dont call function (handlePrevious())because we have to call fuction when clicked otherwise it will call imediately while seeing that call without even clicking on the function */}
               Previous
             </button>
             <button
